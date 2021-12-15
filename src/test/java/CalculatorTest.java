@@ -1,7 +1,5 @@
 import org.junit.jupiter.api.*;
 
-
-
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class CalculatorTest {
@@ -14,14 +12,19 @@ public class CalculatorTest {
     @Test
     void subctractTest(){assertEquals(1,calculator.subtract(3,2));}
 
-    @BeforeEach // O método deve ser executado antes de cada teste
+    @BeforeAll // This method should be executed before all tests
+    void beforeAll(){}
+
+    @BeforeEach // This method should be executed before each test
     void setUp(){}
 
-    @AfterEach // O método deve ser executado depois de cada teste
+    @AfterEach // This method should be executed after each test
     void afterEach(){}
 
-    @AfterAll // O método deve ser executado depois de todos os testes
+    @AfterAll // This method should be executed after all tests
     void afterAll(){}
+
+
 
 
 }
