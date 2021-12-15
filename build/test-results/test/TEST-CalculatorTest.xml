@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="CalculatorTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-12-10T14:31:52" hostname="linuxpc" time="0.041">
-  <properties/>
-  <testcase name="Tests addition" classname="CalculatorTest" time="0.037"/>
-  <testcase name="subctractTest()" classname="CalculatorTest" time="0.002"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

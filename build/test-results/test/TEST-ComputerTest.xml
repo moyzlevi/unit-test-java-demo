@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ComputerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-12-15T12:56:10" hostname="linuxpc" time="0.092">
+  <properties/>
+  <testcase name="Should return five when given five and five" classname="ComputerTest" time="0.092"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
